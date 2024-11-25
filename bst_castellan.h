@@ -66,7 +66,7 @@ Node* insert_it(Node* r,int k){
     }
     return r;
 }
-Node* deleteNode(Node* r, int k) {
+Node* deleteNode(Node* r, int k) { 				//sbagliato
     if (r == nullptr){
         return r;
     }    

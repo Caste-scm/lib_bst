@@ -33,4 +33,3 @@ void Node::inOrder() {
     cout << data << " ";
     if (rchild != nullptr) rchild->inOrder();
 }
-
